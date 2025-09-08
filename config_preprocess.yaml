@@ -1,0 +1,42 @@
+# -*- coding: utf-8 -*-
+
+
+# Snow Distribution Analysis Configuration
+
+# Path configurations
+paths:
+  dataset_dir:   # Directory with original snow depth maps ('C:\example\snow_depth_maps')
+  reference_raster:   # Reference for alignment and masking
+  output_folder:   # Root output folder
+
+# Analysis settings
+analysis:
+  # Years to process (leave empty to automatically detect from filenames)
+  years: [2010,2012,2013,2014,2015,2016,2017,2019,2020,2021,2022,2023,2024] #  [2010,2012,2013,2014,...]
+  
+  # CRS for processing
+  crs: "EPSG:2056" # CH1903+ LV95
+  
+  # Resolution (set to null to use reference raster resolution)
+  resolution: null
+  
+  # Resampling method: nearest, bilinear, cubic, cubic_spline, lanczos, average, mode
+  resampling_method: "average"
+
+  # Whether to apply mask from reference raster
+  apply_ref_mask: true
+
+  # Whether to set negative values to nodata
+  set_negative_to_nodata: true
+
+  # Outlier masking settings
+  outlier_threshold: 15 # 10m for average winters or 15m for winter with big avalanches
+
+# Processing settings
+processing:
+  parallel: true
+  max_workers: 0  # Set to null for auto-detection
+  
+# Validation settings
+config:
+  validate_paths: true  # Set to false to disable path validation
