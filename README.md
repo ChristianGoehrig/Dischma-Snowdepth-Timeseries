@@ -6,9 +6,6 @@ The workflow establishes a high-resolution (2m) spatial continuous timeseries of
 
 - [Dataset Download](#dataset-download)
 - [Installation & Usage](#installation--usage)
-- [Workflow Steps](#workflow-steps)
-- [References](#references)
-
 
 # Dataset Download
 
