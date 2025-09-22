@@ -53,7 +53,7 @@ Miniforge comes with `mamba`, a fast, parallel replacement for `conda`.
 
 6. **Retrieve harmonized output**
     - The harmonized files will be generated in your configured `output_folder`.
-
+    - 
 > **Note:** Because 2018 is of much smaller coverage, consider not integrating this year to gain larger spatial coverage.
 
 ## Workflow Steps
@@ -87,7 +87,7 @@ Snow depth maps of each dataset can be downloaded from [Envidat](https://www.env
 - [UltraCam Dataset](https://www.envidat.ch/#/metadata/snow-depth-mapping-by-airplane-photogrammetry-2017-ongoing?search=snow+depth+maps&isAuthorSearch=false)
 - [ADS Dataset](https://www.envidat.ch/#/metadata/snow-depth-mapping?search=snow%20depth%20ads)
 
-**Limitation:** No acquisitions exist for 2011.
+> **Limitation:** No acquisitions exist for 2011.
 
 # Workflow Steps
 
@@ -95,6 +95,4 @@ Snow depth maps of each dataset can be downloaded from [Envidat](https://www.env
 2. Set up configuration...
 3. Run script...
 
-# References
 
-Links, credits, etc.
