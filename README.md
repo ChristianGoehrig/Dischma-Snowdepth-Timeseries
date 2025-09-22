@@ -1,17 +1,14 @@
 # Preprocessing Dischma Snowdepth Timeseries
+This repository contains all necessary code and data to harmonize and standardize the snow depth maps from the ADS and the UltraCam sensor systems for the Dischma catchment.  
+The workflow establishes a high-resolution (2m) spatial continuous timeseries of snow depth maps over 10 years.  
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Dataset Download](#dataset-download)
 - [Installation & Usage](#installation--usage)
 - [Workflow Steps](#workflow-steps)
 - [References](#references)
 
-## Introduction
-
-This repository contains all necessary code and data to harmonize and standardize the snow depth maps from the ADS and the UltraCam sensor systems for the Dischma catchment.  
-The workflow establishes a high-resolution (2m) spatial continuous timeseries of snow depth maps over 10 years.  
 
 # Dataset Download
 
