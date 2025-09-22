@@ -21,6 +21,9 @@ dependencies:
   # --- Configuration & File Handling ---
   - yaml                # For reading and writing YAML files
 
+  # --- Statistics & Analysis ---
+  - scipy               # For scientific and technical computing
+
   # --- Plotting & Visualization ---
   - matplotlib          # For creating static, animated, and interactive visualizations
 
