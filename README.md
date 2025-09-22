@@ -1,3 +1,33 @@
+# Preprocessing Dischma Snowdepth Timeseries
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Dataset Download](#dataset-download)
+- [Workflow Steps](#workflow-steps)
+- [References](#references)
+
+# Introduction
+
+Project description...
+
+# Dataset Download
+
+Links and instructions...
+
+# Workflow Steps
+
+1. Download datasets...
+2. Set up configuration...
+3. Run script...
+
+# References
+
+Links, credits, etc.
+
+
+
+
 Datset harmonizer
 
 This repository contains all necessary code and data to harmonize and standardize the snow depth maps from the ADS and the UltraCam sensor systems for the Dischma catchment.
