@@ -8,7 +8,7 @@ The workflow establishes a high-resolution (2m) spatial continuous timeseries of
 - [Installation & Usage](#installation--usage)
 - [Dataset Download](#dataset-download)
 
-## Repository Files
+# Repository Files
 
 - `preprocessing.py`: Main script for preprocessing the snow depth maps.
 - `preprocessing_base/`: Library of functions used for preprocessing.
