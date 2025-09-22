@@ -23,7 +23,7 @@ Miniforge comes with `mamba`, a fast, parallel replacement for `conda`.
 
 2. **Create and activate the environment with Mamba (or Conda)**
     ```sh
-    mamba env create -f environment.yml
+    mamba env create -f env/environment.yml
     conda activate Dischma_Snowdepth_Timeseries
     ```
 
