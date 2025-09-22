@@ -4,6 +4,7 @@ The workflow establishes a high-resolution (2m) spatial continuous timeseries of
 
 ## Table of Contents
 
+- [Repository Files (#repository-files)
 - [Installation & Usage](#installation--usage)
 - [Dataset Download](#dataset-download)
 
@@ -29,11 +30,7 @@ Miniforge comes with `mamba`, a fast, parallel replacement for `conda`.
 
 3. **Download required datasets and configuration:**
     - Download both UltraCam and ADS datasets and save them in a common directory (see [Dataset Download](#dataset-download)).
-    - Download the following from this repository:
-        - `preprocessing_base` (library of functions)
-        - `preprocessing_config.yaml` (configuration file for processing settings)
-        - `preprocessing.py` (main script for preprocessing)
-        - `reference_raster_mask_2m.tif` (reference raster for direct matching)
+      
 
 4. **Set up the configuration file**
     - Edit `preprocessing_config.yaml` to adjust processing settings according to your data and needs.
