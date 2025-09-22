@@ -8,6 +8,15 @@ The workflow establishes a high-resolution (2m) spatial continuous timeseries of
 - [Installation & Usage](#installation--usage)
 - [Dataset Download](#dataset-download)
 
+## Repository Files
+
+- `preprocessing.py`: Main script for preprocessing the snow depth maps.
+- `preprocessing_base/`: Library of functions used for preprocessing.
+- `preprocessing_config.yaml`: Configuration file for processing settings (edit this to match your setup).
+- `env/environment.yml`: Conda environment specification for dependencies.
+- `reference_raster_mask_2m.tif`: Reference raster file for spatial alignment and matching.
+
+These files together enable harmonization and standardization of snow depth maps from different sensor systems for the Dischma catchment.
 
 # Installation & Usage
 
