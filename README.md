@@ -46,7 +46,7 @@ Miniforge comes with `mamba`, a fast, parallel replacement for `conda`.
 
 6. **Retrieve harmonized output**
     - The harmonized files will be generated in your configured `output_folder`.
-    - 
+      
 > **Note:** Because 2018 is of much smaller coverage, consider not integrating this year to gain larger spatial coverage.
 
 # Dataset Download
