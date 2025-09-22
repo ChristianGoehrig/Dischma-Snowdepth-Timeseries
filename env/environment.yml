@@ -1,0 +1,25 @@
+# YAML file for Dischma Snowdepth Map Datset Establishment
+#
+# Install this environment using:
+#   conda env create -f path/to/environment.yml
+# Activate the environment using:
+#   conda activate slf-sdc-rainfall-app
+
+name: Dischma_Dataset_Establishment
+channels:
+  - conda-forge
+
+dependencies:
+  # --- Python Version ---
+  - python=3.12         # Specify the Python version
+
+  # --- Core Data Library ---
+  - numpy               # For numerical operations
+  - pandas              # For data manipulation and analysis
+
+  # --- Plotting & Visualization ---
+  - matplotlib          # For creating static, animated, and interactive visualizations
+
+  # --- Domain-Specific Libraries ---
+  - imdlib              # For downloading IMD gridded data
+
