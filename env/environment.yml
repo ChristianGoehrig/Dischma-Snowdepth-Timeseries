@@ -18,6 +18,9 @@ dependencies:
   - pandas              # For data manipulation and analysis
   - rasterio            # For raster data processing
 
+  # --- Configuration & File Handling ---
+  - yaml                # For reading and writing YAML files
+
   # --- Plotting & Visualization ---
   - matplotlib          # For creating static, animated, and interactive visualizations
 
