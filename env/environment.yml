@@ -19,7 +19,7 @@ dependencies:
   - rasterio            # For raster data processing
 
   # --- Configuration & File Handling ---
-  - yaml                # For reading and writing YAML files
+  - pyyaml                # For reading and writing YAML files
 
   # --- Statistics & Analysis ---
   - scipy               # For scientific and technical computing
