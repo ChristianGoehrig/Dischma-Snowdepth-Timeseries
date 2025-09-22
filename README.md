@@ -6,6 +6,7 @@ The workflow establishes a high-resolution (2m) spatial continuous timeseries of
 
 - [Dataset Download](#dataset-download)
 - [Installation & Usage](#installation--usage)
+  
 
 # Dataset Download
 
@@ -16,7 +17,7 @@ Snow depth maps of each dataset can be downloaded from [Envidat](https://www.env
 
 > **Limitation:** No acquisitions exist for 2011.
 
-## Installation & Usage
+# Installation & Usage
 
 This guide assumes you have a Mamba/Conda installation. For a minimal, open-source setup, we recommend installing Miniforge from the [official repository](https://github.com/conda-forge/miniforge).  
 Miniforge comes with `mamba`, a fast, parallel replacement for `conda`.
