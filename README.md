@@ -13,10 +13,7 @@
 This repository contains all necessary code and data to harmonize and standardize the snow depth maps from the ADS and the UltraCam sensor systems for the Dischma catchment.  
 The workflow establishes a high-resolution (2m) spatial continuous timeseries of snow depth maps over 10 years.  
 **Limitation:** No acquisitions exist for 2011.  
-Snow depth maps of each dataset can be downloaded from [Envidat](https://www.envidat.ch/).
 
-- [UltraCam Dataset](https://www.envidat.ch/#/metadata/snow-depth-mapping-by-airplane-photogrammetry-2017-ongoing?search=snow+depth+maps&isAuthorSearch=false)
-- [ADS Dataset](https://www.envidat.ch/#/metadata/snow-depth-mapping?search=snow%20depth%20ads)
 
 ## Installation & Usage
 
@@ -85,7 +82,12 @@ Project description...
 
 # Dataset Download
 
-Links and instructions...
+Snow depth maps of each dataset can be downloaded from [Envidat](https://www.envidat.ch/).
+
+- [UltraCam Dataset](https://www.envidat.ch/#/metadata/snow-depth-mapping-by-airplane-photogrammetry-2017-ongoing?search=snow+depth+maps&isAuthorSearch=false)
+- [ADS Dataset](https://www.envidat.ch/#/metadata/snow-depth-mapping?search=snow%20depth%20ads)
+
+**Limitation:** No acquisitions exist for 2011.
 
 # Workflow Steps
 
