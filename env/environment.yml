@@ -16,6 +16,7 @@ dependencies:
   # --- Core Data Library ---
   - numpy               # For numerical operations
   - pandas              # For data manipulation and analysis
+  - rasterio            # For raster data processing
 
   # --- Plotting & Visualization ---
   - matplotlib          # For creating static, animated, and interactive visualizations
