@@ -17,7 +17,7 @@ Miniforge comes with `mamba`, a fast, parallel replacement for `conda`.
 
 1. **Clone the repository & navigate into its directory**
     ```sh
-    git clone ["https://github.com/ChristianGoehrig/Dischma-Snowdepth-Timeseries" Dischma_Snowdepth_Timeseries)
+    git clone "https://github.com/ChristianGoehrig/Dischma-Snowdepth-Timeseries" Dischma_Snowdepth_Timeseries
     cd Dischma_Snowdepth_Timeseries
     ```
 
