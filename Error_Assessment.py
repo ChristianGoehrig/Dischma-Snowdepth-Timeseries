@@ -8,9 +8,9 @@ import glob
 # ============================================================================
 # CONFIGURATION - SET YOUR PATHS HERE
 # ============================================================================
-folder_05m = r"C:\path\to\05m_rasters"
-folder_2m = r"C:\path\to\2m_rasters"
-output_folder = r"C:\path\to\error_rasters"
+folder_05m = r"W:\christiangoehrig\data\original_data"
+folder_2m = r"W:\christiangoehrig\data\datasets\max_common_acquisition_extent\HS"
+output_folder = r"W:\christiangoehrig\data\Resampling_Errors"
 
 # Create output folder if it doesn't exist
 os.makedirs(output_folder, exist_ok=True)
@@ -93,12 +93,12 @@ for path_05m in rasters_05m:
         profile_error = profile_05m.copy()
         profile_error.update(
             dtype=rasterio.float32,
-            nodata=-9999
+            nodata=-999
         )
 
         with rasterio.open(error_output, 'w', **profile_error) as dst:
             # Convert masked array to regular array with nodata
-            error_filled = error.filled(-9999)
+            error_filled = error.filled(-999)
             dst.write(error_filled, 1)
 
         error_rasters_list.append(error_output)
@@ -163,11 +163,11 @@ rmse_output = os.path.join(output_folder, "rmse_pixelwise.tif")
 rmse_profile = template_profile.copy()
 rmse_profile.update(
     dtype=rasterio.float32,
-    nodata=-9999
+    nodata=-999
 )
 
 # Replace NaN with nodata value for saving
-rmse_save = np.where(np.isnan(rmse_array), -9999, rmse_array)
+rmse_save = np.where(np.isnan(rmse_array), -999, rmse_array)
 
 with rasterio.open(rmse_output, 'w', **rmse_profile) as dst:
     dst.write(rmse_save.astype(rasterio.float32), 1)
