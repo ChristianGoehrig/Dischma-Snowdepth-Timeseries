@@ -5,15 +5,10 @@ This script harmonizes and standardizes snow cover data from two different senso
 """
 
 import os
-import sys
 import glob
 import re
 import datetime
-import warnings
-import yaml
 import argparse
-from pathlib import Path
-import numpy as np
 from rasterio.enums import Resampling
 import preprocessing_base as pb
 
